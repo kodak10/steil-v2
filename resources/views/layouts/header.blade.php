@@ -6,18 +6,18 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="#">
-                                <img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="img/logo-default-slim.png">
+                                <img alt="Porto" width="100" height="100" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="img/logo-default-slim.jpeg">
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="header-column justify-content-end">
-                    
+
                     <div class="header-row">
                         <div class="header-nav pt-1">
                             <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                 <nav class="collapse">
-                                    
+
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="active" href="/">Accueil</a></li>
                                         <li><a class="" href="/about">A Propos</a></li>

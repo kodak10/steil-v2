@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" data-style-switcher-options="{'showBordersStyle': true, 'showLayoutStyle': true, 'showBackgroundColor': true}">
-	
-<!-- Mirrored from www.okler.net/previews/porto/10.0.0/index-classic.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Nov 2023 10:37:14 GMT -->
+
     <head>
-		
+
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Porto - Multipurpose Website Template</title>	
+		<title>Steil Automobile</title>
 
 		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Porto - Multipurpose Website Template">
+		<meta name="description" content="Steil Automobile - Vente de pieces auto et location et vente de bus et engin">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
@@ -48,16 +47,19 @@
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.css"/>
 
-		
+
+
 	</head>
 
-	<body data-plugin-page-transition>		
+	<body data-plugin-page-transition>
 		<div class="body">
 
             @include('layouts.header')
 			<!-- Header -->
-           
+
 			<div role="main" class="main">
                 @yield('content')
 			</div>
@@ -65,13 +67,13 @@
             <div role="main" class="main shop pt-4">
                 @yield('pieces_auto')
 			</div>
- 
+
 			@include('layouts.footer')
 
 		</div>
 
-		
-		
+
+
 		<!-- Vendor -->
 		<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="vendor/plugins/js/plugins.min.js"></script>
 
@@ -86,7 +88,9 @@
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+
+
 	</body>
 
-<!-- Mirrored from www.okler.net/previews/porto/10.0.0/index-classic.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Nov 2023 10:40:21 GMT -->
 </html>

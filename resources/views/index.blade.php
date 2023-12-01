@@ -1,6 +1,31 @@
 @extends('layouts.app')
 @section('content')
 
+<style>
+    .custom-icon-style-1 {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 95px;
+        height: 95px;
+    }
+    a:active {
+        color: var(--primary-100);
+    }
+    a {
+        color: var(--primary);
+    }
+
+    .ours_services i{
+        font-size: 32px;
+    }
+    .thumb-info-wrapper:hover{
+        border: 3px solid var(--primary) !important;
+        transition: 0.3s all ease-in-out;
+
+    }
+</style>
 
 <!-- Carousel -->
 <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['670px','670px','670px','550px','500px']" style="height: 670px;">
@@ -12,7 +37,7 @@
                 <div class="container position-relative z-index-1 h-100">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100">
                         <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                               
+
                             <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
                                 <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                             </span>
@@ -22,31 +47,31 @@
                             </span>
                         </h2>
 
-                       
+
                         <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Carousel Slide 2 -->
-            <div class="owl-item position-relative overlay overlay-show overlay-op-8 lazyload" data-bg-src="img/slides/IMG-4.JPG" style="background-size: cover; background-position: center;">
+            <div class="owl-item position-relative overlay overlay-show overlay-op-8 lazyload" data-bg-src="img/slides/IMG-4.JPG " style="background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-center">
-                                
+
                                 <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
                                     <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
-                                    GARAGE  
+                                    GARAGE
                                     <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
 
                                 </h2>
-                                
-                                <p class="text-4 text-color-light font-weight-light opacity-7 text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Trusted by over <strong class="text-color-light">40,000</strong> satisfied users, Porto is a huge success in the one of largest world's MarketPlace</p>
+
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
                             </div>
                         </div>
                     </div>
@@ -63,12 +88,12 @@
                                     <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
-                                    VENTE ET LOCATION D'ENGIN  
+                                    VENTE ET LOCATION D'ENGIN
                                     <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
                                 </h2>
-                                <p class="text-4 text-color-light font-weight-light text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}">The best choice for your new website</p>
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
                             </div>
                         </div>
                     </div>
@@ -114,7 +139,7 @@
     <div class="row align-items-center justify-content-center pb-4 mb-5">
         <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
             <div class="overflow-hidden">
-                <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation mb-5" data-appear-animation="maskUp" data-appear-animation-delay="300">A PROPOS DE STEIL AUTOMOBILE</h2> 
+                <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation mb-5" data-appear-animation="maskUp" data-appear-animation-delay="300">A PROPOS DE STEIL AUTOMOBILE</h2>
             </div>
             <div class="custom-divider divider divider-primary divider-small my-3 mb-5">
                 <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
@@ -166,17 +191,18 @@
         </div>
     </div>
 
-    
+
 </div>
 
-<div class="container">
+<div class="container ours_services">
     <!-- Ours service -->
     <div class="row pb-2">
         <div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
             <a href="#" class="text-decoration-none">
                 <div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}">
                     <div class="custom-icon-style-1 mb-4">
-                        <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobile, engin et bus</h3>
                     <p>Boostez votre productivité avec notre service de vente et location d'engins, offrant des solutions flexibles pour répondre à tous vos besoins professionnel</p>
@@ -187,7 +213,8 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'accY': -200}">
                     <div class="custom-icon-style-1 mb-4">
-                        <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/wheel-disk.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/wheel-disk.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Garage</h3> <br> <br>
                     <p>Optimisez la performance de votre véhicule avec notre service de garage expert, où l'efficacité rencontre la qualité</p>
@@ -198,7 +225,8 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="750" data-plugin-options="{'accY': -200}">
                     <div class="custom-icon-style-1 mb-4">
-                        <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/car-safe.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/car-safe.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-4 px-xl-5 my-2">Vente et location d'engin</h3> <br>
                     <p>Optimisez vos projets avec notre service de vente et location d'engins, offrant des solutions adaptées pour propulser votre réussite</p>
@@ -219,9 +247,9 @@
                     <b>répondre à vos attentes de pièces</b>
                     <b>Texte</b>
                 </span>
-                
+
             </h1>
-            
+
         </div>
     </div>
 </div>
@@ -347,7 +375,7 @@
                         <div class="feature-box-icon bg-transparent">
                             <i class="icons icon-phone text-6 text-color-light"></i>
                         </div>
-                        
+
                         <div class="feature-box-info line-height-2 ps-1">
                             <span class="d-block text-1 font-weight-semibold text-color-light mb-1 text-center">APPELER NOUS AU</span>
                             <strong class="text-4-5">
@@ -356,7 +384,7 @@
                             </strong>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -412,9 +440,9 @@
                         <a href="#" class="quick-view text-uppercase font-weight-semibold text-2">
                             APPELER
                         </a>
-                        <a href="/pieces">
+                        <a href="#">
                             <div class="product-thumb-info-image bg-light">
-                                <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/products/product-1.jpg">
+                                <img alt="" class="img-fluid" src="{{ $pieces_recente->image }}">
                             </div>
                         </a>
                     </div>
@@ -424,13 +452,13 @@
                             <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="#" class="text-color-dark text-color-hover-primary">{{$pieces_recente->nom}}</a></h3>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             @endforeach
-            
 
-            
+
+
         </div>
         <div class="row">
             <div class="col text-center">
@@ -440,9 +468,45 @@
     </div>
 </section>
 
+
+{{-- @include('layouts.page_bus') --}}
+
 <!-- Marques -->
 <section class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0">
     <div class="container py-4">
+
+        <div class="row justify-content-center pb-3 mb-4">
+            <div class="col-lg-8 text-center">
+                <div class="overflow-hidden">
+                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Les Marques Automobile</h2>
+                </div>
+                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
+                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center text-center py-5">
+            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-9.png" alt class="img-fluid" style="max-width: 140px;" />
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-10.png" alt class="img-fluid" style="max-width: 140px;" />
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-11.png" alt class="img-fluid" style="max-width: 140px;" />
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-12.png" alt class="img-fluid" style="max-width: 100px;" />
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-13.png" alt class="img-fluid" style="max-width: 100px;" />
+            </div>
+        </div>
+
         <div class="row align-items-center text-center py-5">
             <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
                 <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
@@ -484,10 +548,10 @@
             </div>
         </div>
     </div>
-    <svg class="custom-svg-3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 495">
+    {{-- <svg class="custom-svg-3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 495">
         <path fill="#1C5FA8" d="M193,25.73L18.95,247.93c-13.62,17.39-10.57,42.54,6.82,56.16L193,435.09V25.73z"/>
         <path fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M196,53.54L22.68,297.08c-12.81,18-8.6,42.98,9.4,55.79L196,469.53V53.54z"/>
-    </svg>
+    </svg> --}}
 </section>
 
 
