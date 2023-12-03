@@ -37,7 +37,7 @@
                             <option value="" selected="selected">Toutes les pièces</option>
                             <option value="boite" >Boites</option>
                             <option value="moteur">Moteurs</option>
-                            <option value="pieceS">Pièces Détachées</option>
+                            <option value="pieces">Pièces Détachées</option>
 
                         </select>
                     </div>
