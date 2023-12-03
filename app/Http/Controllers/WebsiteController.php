@@ -7,6 +7,9 @@ use App\Models\Piece;
 use App\Models\Marque;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
+
 
 class WebsiteController extends Controller
 {
@@ -61,5 +64,58 @@ class WebsiteController extends Controller
     public function contact()
     {
         return view('contact');
+    }
+
+    public function send_mail(Request $request)
+    {
+        // Validez les données du formulaire ici
+
+        $data = [
+            'name' => $request->input('name'),
+            'number' => $request->input('phone'),
+            'email' => $request->input('email'),
+            'subject' => $request->input('subject'),
+            'message' => $request->input('message'),
+        ];
+
+        Mail::to('steilautomobile@gmail.com')->send(new ContactMail($data));
+
+        // Redirigez l'utilisateur après l'envoi du message
+
+        return redirect('/contact')->with('success', 'Votre message a été envoyé avec succès !');
+    }
+
+    public function search(Request $request)
+    {
+        $engins = Engin::get();
+        $marques = Marque::all();
+        //$pieces = Piece::paginate(9);
+        $banner_engins = Engin::latest()->take(1)->get();
+        $banner_pieces = Piece::latest()->take(2)->get();
+        $top_pieces_buys = Piece::orderBy('created_at', 'asc')->take(2)->get();
+
+        $query = DB::table('pieces');
+
+        $category = $request->input('category');
+        $keyword = $request->input('keyword');
+
+
+        if (!empty($category)) {
+            $query->where('categorie_pieces', $category);
+        }
+
+        if (!empty($keyword)) {
+            $query->where('nom', 'like', '%' . $keyword . '%');
+        }
+
+        $pieces = $query->paginate(9);
+
+
+        //$pieces = Piece::where('nom', 'like', '%' . $searchTerm . '%')->paginate(9);
+
+        return view('shop', compact('engins', 'marques', 'pieces', 'banner_engins', 'banner_pieces', 'top_pieces_buys'));
+
+
+
     }
 }

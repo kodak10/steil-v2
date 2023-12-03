@@ -15,7 +15,7 @@
 
         <div class="row align-items-center text-center py-5">
             @foreach ($marques as $marque )
-                <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <div class="col-sm-2 col-lg-2 mb-5 mb-lg-0">
                     <img src="{{$marque->chemin}}" alt class="img-fluid" style="max-width: 90px;" />
                 </div>
             @endforeach

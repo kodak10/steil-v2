@@ -52,13 +52,13 @@
 
 
         <style>
-            .swiper-pagination {
+            .bus_engin .swiper-pagination {
       position: absolute;
       bottom: 10px;
       text-align: center;
       width: 100%;
     }
-    .swiper-pagination-bullet {
+    .bus_engin .swiper-pagination-bullet {
       width: 8px;
       height: 8px;
       display: inline-block;
@@ -66,7 +66,7 @@
       border-radius: 50%;
       margin: 0 5px;
     }
-    .swiper-pagination-bullet-active {
+    .bus_engin .swiper-pagination-bullet-active {
       background-color: #3498db;
     }
         </style>

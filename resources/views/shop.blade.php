@@ -24,31 +24,31 @@
     </section>
 
     <div class="container">
+        <form action="{{ route('recherche') }}" method="GET">
+            <div class="row align-items-center justify-content-between mb-4 mt-3">
+                <div class="col-md-4 mb-3 mb-md-0 order-md-3">
+                    <div class="d-flex align-items-center">
+                        <select class="form-select form-control border px-3 py-2 h-auto" name="category">
+                            <option value="" selected="selected">Toutes les pièces</option>
+                            <option value="boites" >Boites</option>
+                            <option value="moteurs">Moteurs</option>
+                            <option value="pieces">Pièces</option>
 
-        <div class="row align-items-center justify-content-between mb-4 mt-3">
-            <div class="col-md-4 mb-3 mb-md-0 order-md-3">
-                <div class="d-flex align-items-center">
-                    <select class="form-select form-control border px-3 py-2 h-auto">
-                        <option value="" selected="selected">Toutes les pièces</option>
-                        <option value="pieces" >Boites</option>
-                        <option value="moteurs">Moteurs</option>
-                        <option value="boites">Boites</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 order-md-2">
+                    <button type="submit" class="form-control w-100" style="border: 1px solid #000000; font-weight:400">Rechercher</button>
 
-                    </select>
+                </div>
+
+                <div class="col-md-4 order-md-1 W-100">
+                    <form method="get" class="w-100">
+                        <input class="p-2 form-control" type="text" name="keyword" placeholder="Entrer le nom de la pièce ici">
+                    </form>
                 </div>
             </div>
-            <div class="col-md-4 mb-3 mb-md-0 order-md-2">
-                <button class="form-control w-100" style="border: 1px solid #000000; font-weight:400">Rechercher</button>
-
-            </div>
-
-            <div class="col-md-4 order-md-1 W-100">
-                <form method="get" class="w-100">
-                    <input class="p-2 form-control" type="text" name="" id="" placeholder="Entrer le nom de la pièce ici">
-                </form>
-            </div>
-        </div>
-
+        </form>
         <div class="masonry-loader masonry-loader-showing">
             <div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
 
@@ -129,6 +129,8 @@
             </div>
         </div>
     </section>
+
+    @include('layouts.marque')
 
 
 @include('layouts.temoignage')

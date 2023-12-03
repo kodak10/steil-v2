@@ -41,14 +41,24 @@
                 Nous sommes là pour vous aider avec vos besoins de réparation et d'entretien automobile. Entrez, appelez-nous ou envoyez-nous un email. Nous vous répondrons dès que possible pendant les heures normales de bureau.            </p>
         </div>
         <div class="col-lg-6 col-xl-5 offset-lg-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
-            <form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-                <div class="contact-form-success alert alert-success d-none mt-4">
-                    <strong>Success!</strong> Your message has been sent to us.
-                </div>
+            <form class="contact-form custom-form-style-1" action="{{route('mail')}}" method="post">
 
-                <div class="contact-form-error alert alert-danger d-none mt-4">
-                    <strong>Error!</strong> There was an error sending your message.
-                    <span class="mail-error-message text-1 d-block"></span>
+                @csrf
+                <div class="row">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    @if(session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
                 </div>
 
                 <div class="row row-gutter-sm">

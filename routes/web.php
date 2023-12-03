@@ -19,4 +19,6 @@ Route::get('/about', [WebsiteController::class, 'about']);
 Route::get('/pieces', [WebsiteController::class, 'pieces']);
 Route::get('/garage', [WebsiteController::class, 'garage']);
 Route::get('/contact', [WebsiteController::class, 'contact']);
+Route::post('/contact', [WebsiteController::class, 'send_mail'])->name('mail');
 
+Route::get('/pieces_engin', [WebsiteController::class, 'search']  )->name('recherche');
