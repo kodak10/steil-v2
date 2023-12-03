@@ -62,7 +62,7 @@
                                 </a>
                                 <a href="#">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="{{ $piece->image }}">
+                                        <img alt="" class="img-fluid" src="/{{ $piece->image }}">
                                     </div>
                                 </a>
                             </div>

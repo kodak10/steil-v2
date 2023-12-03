@@ -454,7 +454,7 @@
                         </a>
                         <a href="#">
                             <div class="product-thumb-info-image bg-light">
-                                <img alt="" class="img-fluid" src="{{ $pieces_recente->image }}">
+                                <img alt="" class="img-fluid" src="/{{ $pieces_recente->image }}">
                             </div>
                         </a>
                     </div>
