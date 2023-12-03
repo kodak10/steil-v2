@@ -51,31 +51,35 @@
         </form>
         <div class="masonry-loader masonry-loader-showing">
             <div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+                @if($pieces->isEmpty())
+                    <p>Aucun résultat n'a été trouvé.</p>
+                    @else
+                        @foreach ($pieces as $piece )
+                        <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                            <div class="product mb-0">
+                                <div class="product-thumb-info border-0 mb-3">
 
-                @foreach ($pieces as $piece )
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                        <div class="product mb-0">
-                            <div class="product-thumb-info border-0 mb-3">
-
-                                <a href="#" class="quick-view text-uppercase font-weight-semibold text-2">
-                                    APPELER
-                                </a>
-                                <a href="#">
-                                    <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="/{{ $piece->image }}">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">{{$piece->categorie_pieces}}</a>
-                                    <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="#" class="text-color-dark text-color-hover-primary">{{$piece->nom}}</a></h3>
+                                    <a href="#" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        APPELER
+                                    </a>
+                                    <a href="#">
+                                        <div class="product-thumb-info-image">
+                                            <img alt="" class="img-fluid" src="/{{ $piece->image }}">
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">{{$piece->categorie_pieces}}</a>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="#" class="text-color-dark text-color-hover-primary">{{$piece->nom}}</a></h3>
+                                    </div>
+                                </div>
 
+                            </div>
                         </div>
-                    </div>
-                @endforeach
+                    @endforeach
+                @endif
+                
 
 
 

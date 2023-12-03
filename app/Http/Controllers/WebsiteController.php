@@ -58,7 +58,8 @@ class WebsiteController extends Controller
 
     public function garage()
     {
-        return view('garage');
+        $marques = Marque::all();
+        return view('garage', compact('marques'));
     }
 
     public function contact()
@@ -82,7 +83,7 @@ class WebsiteController extends Controller
 
         // Redirigez l'utilisateur après l'envoi du message
 
-        return redirect('/contact')->with('success', 'Votre message a été envoyé avec succès !');
+        return redirect('/contact')->with('success', 'Votre message à été envoyé avec succès !');
     }
 
     public function search(Request $request)

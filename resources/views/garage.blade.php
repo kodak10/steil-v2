@@ -89,5 +89,7 @@
     </div>
 </div>
 
+@include('layouts.marque')
+
 @include('layouts.temoignage')
 @endsection
