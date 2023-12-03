@@ -325,7 +325,7 @@
     </div>
     <div class="row row-gutter-sm mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
         <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0">
-            <a href="https://www.okler.net/previews/porto/10.0.0/demo-auto-services-services.html" class="text-decoration-none">
+            <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
                         <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-1.jpg" class="img-fluid" alt="">
@@ -335,7 +335,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0">
-            <a href="https://www.okler.net/previews/porto/10.0.0/demo-auto-services-services.html" class="text-decoration-none">
+            <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
                         <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-2.jpg" class="img-fluid" alt="">
@@ -346,7 +346,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 text-center mb-4 mb-sm-0">
-            <a href="https://www.okler.net/previews/porto/10.0.0/demo-auto-services-services.html" class="text-decoration-none">
+            <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
                         <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-3.jpg" class="img-fluid" alt="">
@@ -356,7 +356,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 text-center">
-            <a href="https://www.okler.net/previews/porto/10.0.0/demo-auto-services-services.html" class="text-decoration-none">
+            <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
                         <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-4.jpg" class="img-fluid" alt="">

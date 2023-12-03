@@ -5,8 +5,8 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="#">
-                                <img alt="Porto" width="100" height="100" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="img/logo-default-slim.jpeg">
+                            <a href="/">
+                                <img alt="Steil Automobile" width="100" height="100" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="img/logo-default-slim.jpeg">
                             </a>
                         </div>
                     </div>

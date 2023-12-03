@@ -200,7 +200,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter">
                 <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
                     <span class="thumb-info-wrapper border-radius-0">
-                        <a href="about-me.html">
+                        <a href="#">
                             <img src="img/team/team-1.jpg" class="img-fluid border-radius-0" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">John Doe</span>
@@ -221,7 +221,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
                 <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
                     <span class="thumb-info-wrapper border-radius-0">
-                        <a href="about-me.html">
+                        <a href="#">
                             <img src="img/team/team-2.jpg" class="img-fluid border-radius-0" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Jessica Doe</span>
@@ -242,7 +242,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
                 <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
                     <span class="thumb-info-wrapper border-radius-0">
-                        <a href="about-me.html">
+                        <a href="#">
                             <img src="img/team/team-3.jpg" class="img-fluid border-radius-0" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Rick Edward Doe</span>
@@ -263,7 +263,7 @@
             <div class="col-sm-6 col-lg-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
                 <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
                     <span class="thumb-info-wrapper border-radius-0">
-                        <a href="about-me.html">
+                        <a href="#">
                             <img src="img/team/team-4.jpg" class="img-fluid border-radius-0" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Melinda Wolosky</span>
@@ -288,7 +288,7 @@
 <div class="container">
     <div class="row py-5 my-5">
         <div class="col">
-    
+
             <div class="owl-carousel owl-theme mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}">
                 <div>
                     <img class="img-fluid opacity-2" src="img/logos/logo-1.png" alt="">
@@ -315,7 +315,7 @@
                     <img class="img-fluid opacity-2" src="img/logos/logo-2.png" alt="">
                 </div>
             </div>
-            
+
         </div>
     </div>
 </div>

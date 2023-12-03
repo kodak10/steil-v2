@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="row row-gutter-sm mb-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="950">
-        <div class="col-sm-6 col-lg-4 text-center mb-4">
+        <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
@@ -34,7 +34,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-sm-6 col-lg-4 text-center mb-4">
+        <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
@@ -44,7 +44,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-sm-6 col-lg-4 text-center mb-4">
+        <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
@@ -54,7 +54,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-sm-6 col-lg-4 text-center">
+        <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
@@ -65,7 +65,7 @@
             </a>
         </div>
 
-        <div class="col-sm-6 col-lg-4 text-center mb-lg-0">
+        <div class="col-sm-6 col-lg-4 text-center mb-lg-0 mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
@@ -75,7 +75,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-sm-6 col-lg-4 text-center mb-4 mb-lg-0">
+        <div class="col-sm-6 col-lg-4 text-center mb-4 mb-lg-0 mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">

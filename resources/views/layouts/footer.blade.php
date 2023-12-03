@@ -72,7 +72,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/shop">
+                        <a href="/pieces">
                             <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Pieces Auto / Engin / Bus</strong></p>
 
                         </a>
