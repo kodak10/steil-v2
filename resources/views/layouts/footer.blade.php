@@ -4,7 +4,8 @@
             <div class="col-md-4 mb-5 mb-md-0">
                 <div class="feature-box flex-column flex-xl-row align-items-center align-items-lg-start text-center text-lg-start">
                     <div class="feature-box-icon bg-transparent mb-4 mb-xl-0 p-0">
-                        <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/icon-location.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" />
+                        <i class="fa-solid fa-location-dot text-9 text-color-light position-relative top-4"></i>
+                        {{-- <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/icon-location.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" /> --}}
                     </div>
                     <div class="feature-box-info line-height-1 ps-2">
                         <span class="d-block font-weight-bold text-color-light text-5 mb-2">Adresse</span>
@@ -30,7 +31,8 @@
             <div class="col-md-4">
                 <div class="feature-box flex-column flex-xl-row align-items-center align-items-lg-start text-center text-lg-start">
                     <div class="feature-box-icon bg-transparent mb-4 mb-xl-0 p-0">
-                        <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/car-winch.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" />
+                        <i class="fa-solid fa-envelope text-9 text-color-light position-relative top-4"></i>
+                        {{-- <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/car-winch.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" /> --}}
                     </div>
                     <div class="feature-box-info line-height-1 ps-xl-3">
                         <span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Email</span>
@@ -51,37 +53,40 @@
         <div class="row py-5 my-4">
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <h5 class="text-3 mb-3">STEIL AUTOMOBILE</h5>
-                <p class="pe-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>
-                <div class="alert alert-success d-none" id="newsletterSuccess">
-                    <strong>Success!</strong> You've been added to our email list.
-                </div>
-                <div class="alert alert-danger d-none" id="newsletterError"></div>
-                <form id="newsletterForm" action="https://www.okler.net/previews/porto/10.0.0/php/newsletter-subscribe.php" method="POST" class="me-4 mb-3 mb-md-0">
-                    <div class="input-group input-group-rounded">
-                        <input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="email">
-                        <button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-                    </div>
-                </form>
+                <p class="pe-1">Nous sommes spécialisés dans la vente de pièces automobiles de haute qualité.<br>Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.</p>
+
             </div>
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <h5 class="text-3 mb-3">NAVIGATION</h5>
                 <ul class="list-unstyled mb-0">
                     <li class="mb-2 pb-1">
-                        <a href="#">
-                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Lorem ipsum dolor sit amet.</strong></p>
-                            <p class="text-2 mb-0">12:55 AM Dec 19th</p>
+                        <a href="/">
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Accueil</strong></p>
+
                         </a>
                     </li>
                     <li class="mb-2 pb-1">
-                        <a href="#">
-                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Ipsum dolor sit amet.</strong></p>
-                            <p class="text-2 mb-0">12:55 AM Dec 19th</p>
+                        <a href="/about">
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">A Propos</strong></p>
+
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Lorem ipsum dolor sit amet.</strong></p>
-                            <p class="text-2 mb-0">12:55 AM Dec 19th</p>
+                        <a href="/shop">
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Pieces Auto / Engin / Bus</strong></p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/garage">
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Garage</strong></p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact">
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Contact</strong></p>
+
                         </a>
                     </li>
                 </ul>
@@ -90,9 +95,11 @@
                 <div class="contact-details">
                     <h5 class="text-3 mb-3">NOS CONTACTS</h5>
                     <ul class="list list-icons list-icons-lg">
-                        <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">234 Street Name, City Name</p></li>
-                        <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(800) 123-4567</a></p></li>
-                        <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="https://www.okler.net/cdn-cgi/l/email-protection#224f434b4e62475a434f524e470c414d4f"><span class="__cf_email__" data-cfemail="670a060e0b27021f060a170b024904080a">[email&#160;protected]</span></a></p></li>
+                        <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Abidjan, Yopougon en face de UNIWAX sur l'autoroute du nord
+                        </p></li>
+                        <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+2250777424405">(+225) 0777424405</a> <br> <a href="tel:+2250707636245">(+225) 0707636245</a></p></li>
+                        <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href=""><span class="" >infos@steilautomobile.com
+                        </span></a></p></li>
                     </ul>
                 </div>
             </div>
@@ -104,7 +111,7 @@
             <div class="row py-4">
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                     <a href="/" class="logo pe-0 pe-lg-3">
-                        STEIL AUTOMBILE
+                        STEIL AUTOMOBILE
                     </a>
                 </div>
                 <div class="col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">

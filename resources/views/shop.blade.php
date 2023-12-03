@@ -1,21 +1,27 @@
 @extends('layouts.app')
 @section('pieces_auto')
 
-<section class="page-header page-header-classic page-header-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h1 data-title-border>PIECES AUTOMOBILE / BUS / ENGIN</h1>
-            </div>
-            <div class="col-md-4 order-1 order-md-2 align-self-center">
-                <ul class="breadcrumb d-block text-md-end">
-                    <li><a href="#">Accueil</a></li>
-                    <li class="active">Pieces Automobile / Bus / Engin</li>
-                </ul>
+    <section class="page-header page-header-classic page-header-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+                    <h1 data-title-border>PIECES AUTOMOBILE / BUS / ENGIN</h1>
+                </div>
+                <div class="col-md-4 order-1 order-md-2 align-self-center">
+                    <ul class="breadcrumb d-block text-md-end">
+                        <li><a href="#">Accueil</a></li>
+                        <li class="active">Pieces Automobile / Bus / Engin</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <img src="{{asset('img/Banner_pieces_auto.png')}}" class="img-fluid w-100" alt="">
+        </div>
+    </section>
 
     <div class="container">
 
@@ -25,14 +31,14 @@
                     <select class="form-select form-control border px-3 py-2 h-auto">
                         <option value="" selected="selected">Toutes les pièces</option>
                         <option value="pieces" >Boites</option>
-                        <option value="moteurs">Moteur</option>
-                        <option value="boites" selected="selected">Boites</option>
+                        <option value="moteurs">Moteurs</option>
+                        <option value="boites">Boites</option>
 
                     </select>
                 </div>
             </div>
-            <div class="col-md-4 order-md-2 m-auto">
-                <button class="form-control w-100" style="border: 1px solid #000000">Rechercher</button>
+            <div class="col-md-4 mb-3 mb-md-0 order-md-2">
+                <button class="form-control w-100" style="border: 1px solid #000000; font-weight:400">Rechercher</button>
 
             </div>
 
@@ -56,7 +62,7 @@
                                 </a>
                                 <a href="#">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="{{ $pieces_recente->image }}">
+                                        <img alt="" class="img-fluid" src="{{ $piece->image }}">
                                     </div>
                                 </a>
                             </div>
@@ -87,6 +93,8 @@
         </div>
 
     </div>
+
+
 
 @include('layouts.temoignage')
 @endsection

@@ -133,9 +133,9 @@
     </div>
 </div>
 
-<!-- About & Ours service -->
-<div class="container my-5 pt-md-4 pt-xl-0 mt-5">
-    <!-- About  -->
+<!-- About -->
+<div class="container my-5 pt-md-4 pt-xl-0 mt-5 mb-5">
+
     <div class="row align-items-center justify-content-center pb-4 mb-5">
         <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
             <div class="overflow-hidden">
@@ -191,11 +191,20 @@
         </div>
     </div>
 
-
 </div>
 
-<div class="container ours_services">
+<div class="container ours_services mb-5">
     <!-- Ours service -->
+    <div class="row justify-content-center pb-3 mb-4">
+        <div class="col-lg-8 text-center">
+            <div class="overflow-hidden">
+                <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Nos Services</h2>
+            </div>
+            <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
+                <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
+            </div>
+        </div>
+    </div>
     <div class="row pb-2">
         <div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
             <a href="#" class="text-decoration-none">
@@ -241,11 +250,14 @@
     <div class="row text-center pt-3">
         <div class="col-md-10 mx-md-auto">
             <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
-                <span>Chez <strong>Steil Automobile</strong>, notre priorité est de </span>
+                <span>Chez <strong>Steil Automobile</strong>, notre priorité est de répondre à vos attentes en matière de</span>
                 <span class="word-rotator-words bg-dark text-center m-auto">
-                    <b class="is-visible">vous satisfaire</b>
-                    <b>répondre à vos attentes de pièces</b>
-                    <b>Texte</b>
+
+                    <b class="is-visible m-auto text-center">pièces automobile</b>
+                    <b class="m-auto text-center">engin</b>
+                    <b class="m-auto text-center">bus</b>
+                    <b class="m-auto text-center">garage</b>
+
                 </span>
 
             </h1>
@@ -265,19 +277,19 @@
                 <span class="cloud"></span>
                 <div class="col-lg-2 ms-lg-auto">
                     <div class="process-image">
-                        <img src="img/home/home-concept-item-1.png" alt="" />
+                        <img src="{{asset('img/04_images/engin.jpg')}}" alt="" />
                         <strong>Engin</strong>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="process-image process-image-on-middle">
-                        <img src="img/home/home-concept-item-2.png" alt="" />
+                        <img src="{{asset('img/04_images/garage.jpg')}}" alt="" />
                         <strong>Garage</strong>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="process-image">
-                        <img src="img/home/home-concept-item-3.png" alt="" />
+                        <img src="{{asset('img/04_images/bus.jpg')}}" alt="" />
                         <strong>Bus</strong>
                     </div>
                 </div>
@@ -285,9 +297,9 @@
                     <div class="project-image">
                         <div id="fcSlideshow" class="fc-slideshow">
                             <ul class="fc-slides">
-                                <li><a aria-label=""><img class="img-fluid" src="img/projects/project-home-1.jpg" alt="" /></a></li>
-                                <li><a aria-label=""><img class="img-fluid" src="img/projects/project-home-2.jpg" alt="" /></a></li>
-                                <li><a aria-label=""><img class="img-fluid" src="img/projects/project-home-3.jpg" alt="" /></a></li>
+                                <li><a aria-label=""><img class="img-fluid w-100" src="{{asset('img/04_images/piece_1.jpeg')}}" alt="" /></a></li>
+                                <li><a aria-label=""><img class="img-fluid w-100" src="{{asset('img/04_images/piece_2.jpg')}}" alt="" /></a></li>
+                                <li><a aria-label=""><img class="img-fluid w-100" src="{{asset('img/04_images/piece_3.jpg')}}" alt="" /></a></li>
                             </ul>
                         </div>
                         <strong class="our-work">Pièces Automobile</strong>
@@ -457,8 +469,6 @@
             </div>
             @endforeach
 
-
-
         </div>
         <div class="row">
             <div class="col text-center">
@@ -471,88 +481,7 @@
 
 {{-- @include('layouts.page_bus') --}}
 
-<!-- Marques -->
-<section class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0">
-    <div class="container py-4">
-
-        <div class="row justify-content-center pb-3 mb-4">
-            <div class="col-lg-8 text-center">
-                <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Les Marques Automobile</h2>
-                </div>
-                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
-                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-items-center text-center py-5">
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-9.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-10.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-11.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-12.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-13.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-        </div>
-
-        <div class="row align-items-center text-center py-5">
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-9.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-10.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-11.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-12.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-13.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-        </div>
-        <div class="row align-items-center text-center py-5">
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-9.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-10.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-11.png" alt class="img-fluid" style="max-width: 140px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-12.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <img src="https://www.okler.net/previews/porto/10.0.0/img/logos/logo-13.png" alt class="img-fluid" style="max-width: 100px;" />
-            </div>
-        </div>
-    </div>
-    {{-- <svg class="custom-svg-3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 495">
-        <path fill="#1C5FA8" d="M193,25.73L18.95,247.93c-13.62,17.39-10.57,42.54,6.82,56.16L193,435.09V25.73z"/>
-        <path fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M196,53.54L22.68,297.08c-12.81,18-8.6,42.98,9.4,55.79L196,469.53V53.54z"/>
-    </svg> --}}
-</section>
+@include('layouts.marque')
 
 
 @include('layouts.temoignage')
