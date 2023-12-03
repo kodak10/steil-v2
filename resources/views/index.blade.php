@@ -25,6 +25,10 @@
         transition: 0.3s all ease-in-out;
 
     }
+    .products .product img{
+        height: 150px;
+        width: 100%;
+    }
 </style>
 
 <!-- Carousel -->
