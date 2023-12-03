@@ -26,7 +26,7 @@
 
     }
     .products .product img{
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
 </style>
