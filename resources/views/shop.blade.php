@@ -1,6 +1,11 @@
 @extends('layouts.app')
 @section('pieces_auto')
-
+<style>
+    .products .product img{
+        height: 200px;
+        width: 100%;
+    }
+</style>
     <section class="page-header page-header-classic page-header-sm">
         <div class="container">
             <div class="row">
