@@ -109,7 +109,7 @@ class WebsiteController extends Controller
             $query->where('nom', 'like', '%' . $keyword . '%');
         }
 
-        $pieces = $query->paginate(9);
+        $pieces = $query->paginate(12);
 
 
         //$pieces = Piece::where('nom', 'like', '%' . $searchTerm . '%')->paginate(9);

@@ -35,9 +35,9 @@
                     <div class="d-flex align-items-center">
                         <select class="form-select form-control border px-3 py-2 h-auto" name="category">
                             <option value="" selected="selected">Toutes les pièces</option>
-                            <option value="boites" >Boites</option>
-                            <option value="moteurs">Moteurs</option>
-                            <option value="pieces">Pièces</option>
+                            <option value="boite" >Boites</option>
+                            <option value="moteur">Moteurs</option>
+                            <option value="pieceS">Pièces Détachées</option>
 
                         </select>
                     </div>
