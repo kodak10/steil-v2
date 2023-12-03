@@ -328,7 +328,7 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-1.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/Entretien.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Entretien</h3>
                 </div>
@@ -338,7 +338,7 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-2.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/Reparation.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de moteur
                     </h3>
@@ -349,7 +349,7 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-3.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/transmission.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de la transmission</h3>
                 </div>
@@ -359,7 +359,7 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/services/service-small-4.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/reparation_vehicule.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation du système électrique
                     </h3>
