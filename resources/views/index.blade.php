@@ -55,7 +55,7 @@
 
             <!-- Carousel Slide 2 -->
             <div class="owl-item position-relative overlay overlay-show overlay-op-8 lazyload" data-bg-src="img/slides/IMG-4.JPG " style="background-size: cover; background-position: center;">
-                <div class="container position-relative z-index-3 h-100">
+                <div class="container position-relative z-index-2 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-center">
@@ -71,7 +71,7 @@
 
                                 </h2>
 
-                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
+                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-6">
-                            <div class="d-flex flex-column align-items-center">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
                                 <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
                                     <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
@@ -93,7 +93,7 @@
                                         <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
                                 </h2>
-                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
+                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -277,19 +277,19 @@
                 <span class="cloud"></span>
                 <div class="col-lg-2 ms-lg-auto">
                     <div class="process-image">
-                        <img src="{{asset('img/04_images/engin.jpg')}}" alt="" />
+                        <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/engin.jpg')}}" alt="" />
                         <strong>Engin</strong>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="process-image process-image-on-middle">
-                        <img src="{{asset('img/04_images/garage.jpg')}}" alt="" />
+                        <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/garage.jpg')}}" alt="" />
                         <strong>Garage</strong>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="process-image">
-                        <img src="{{asset('img/04_images/bus.jpg')}}" alt="" />
+                        <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/bus.jpg')}}" alt="" />
                         <strong>Bus</strong>
                     </div>
                 </div>
@@ -472,14 +472,49 @@
         </div>
         <div class="row">
             <div class="col text-center">
+
                 <a href="/pieces" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 btn-px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800">VOIR TOUTES LES PIECES</a>
             </div>
         </div>
     </div>
 </section>
 
+<section class="section section-height-4 border-0 m-0">
+    <div class="container-fluid">
+        <div class="row justify-content-center pb-3 mb-4">
+            <div class="col-lg-8 text-center">
+                <div class="overflow-hidden">
+                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Bus</h2>
+                </div>
+                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
+                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @include('layouts.page_bus')
+        </div>
+    </div>
+</section>
 
-{{-- @include('layouts.page_bus') --}}
+<section class="section section-height-4 border-0 m-0">
+    <div class="container-fluid">
+        <div class="row justify-content-center pb-3 mb-4">
+            <div class="col-lg-8 text-center">
+                <div class="overflow-hidden">
+                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Engins</h2>
+                </div>
+                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
+                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @include('layouts.page_engin')
+        </div>
+    </div>
+</section>
+
 
 @include('layouts.marque')
 
