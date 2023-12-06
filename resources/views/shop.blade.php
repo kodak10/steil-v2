@@ -11,6 +11,11 @@
         font-weight: bold;
         color: #000000 !important;
     }
+    .btn-search:hover{
+        background-color: var(--primary) !important;
+        color: #ffffff !important;
+        transition: 0.3s all ease-in-out;
+    }
 </style>
 
     <section class="page-header page-header-classic page-header-sm">
