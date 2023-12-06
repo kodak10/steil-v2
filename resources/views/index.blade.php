@@ -435,7 +435,7 @@
 </div>
 
 
-<!-- PiEces disponible -->
+<!-- Pieces disponible -->
 <section class="shop section section-height-4 border-0 m-0 lightbox">
     <div class="container">
         <div class="row justify-content-center pb-3 mb-4">
@@ -483,41 +483,12 @@
     </div>
 </section>
 
-<section class="section bus_engin section-height-4 border-0 m-0">
-    <div class="container-fluid">
-        <div class="row justify-content-center pb-3 mb-4">
-            <div class="col-lg-8 text-center">
-                <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Bus</h2>
-                </div>
-                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
-                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            @include('layouts.page_bus')
-        </div>
-    </div>
-</section>
 
-<section class="section bus_engin section-height-4 border-0 m-0">
-    <div class="container-fluid">
-        <div class="row justify-content-center pb-3 mb-4">
-            <div class="col-lg-8 text-center">
-                <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Engins</h2>
-                </div>
-                <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
-                    <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            @include('layouts.page_engin')
-        </div>
-    </div>
-</section>
+    @include('layouts.page_engin')
+    @include('layouts.page_bus')
+
+
+
 
 
 @include('layouts.marque')

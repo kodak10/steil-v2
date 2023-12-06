@@ -1,6 +1,13 @@
 @extends('layouts.app')
 @section('content')
 
+<style>
+    .thumb-info-wrapper:hover{
+        border: 3px solid var(--primary) !important;
+        transition: 0.3s all ease-in-out;
+
+    }
+</style>
 <section class="page-header page-header-classic page-header-sm">
     <div class="container">
         <div class="row">

@@ -47,9 +47,10 @@
     <hr class="bg-light opacity-2 my-0">
 
     <div class="container">
-        <div class="footer-ribbon">
+        {{-- <div class="footer-ribbon">
             <span>By ....</span>
-        </div>
+
+        </div> --}}
         <div class="row py-5 my-4">
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <h5 class="text-3 mb-3">STEIL AUTOMOBILE</h5>

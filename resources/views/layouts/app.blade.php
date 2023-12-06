@@ -48,28 +48,9 @@
 		<link rel="stylesheet" href="css/custom.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 
-        <style>
-            .bus_engin .swiper-pagination {
-      position: absolute;
-      bottom: 10px;
-      text-align: center;
-      width: 100%;
-    }
-    .bus_engin .swiper-pagination-bullet {
-      width: 8px;
-      height: 8px;
-      display: inline-block;
-      background-color: #999;
-      border-radius: 50%;
-      margin: 0 5px;
-    }
-    .bus_engin .swiper-pagination-bullet-active {
-      background-color: #3498db;
-    }
-        </style>
+        
 	</head>
 
 	<body data-plugin-page-transition>
@@ -107,72 +88,7 @@
 		<script src="js/theme.init.js"></script>
 
 
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <script>
-            // Premier diaporama
-            var swiper1 = new Swiper('#swiper1', {
-              slidesPerView: 6,
-              spaceBetween: 10,
-              navigation: {
-                nextEl: '#swiper1 .swiper-button-next',
-                prevEl: '#swiper1 .swiper-button-prev',
-              },
-              pagination: {
-                el: '#swiper1 .swiper-pagination',
-                clickable: true,
-              },
-              breakpoints: {
-                1024: {
-                  slidesPerView: 4,
-                  spaceBetween: 10,
-                },
-                768: {
-                  slidesPerView: 1,
-                  spaceBetween: 10,
-                },
-              }
-            });
-
-            // Deuxième diaporama
-            var swiper2 = new Swiper('#swiper2', {
-              slidesPerView: 3,
-              spaceBetween: 20,
-              navigation: {
-                nextEl: '#swiper2 .swiper-button-next',
-                prevEl: '#swiper2 .swiper-button-prev',
-              },
-              pagination: {
-                el: '#swiper2 .swiper-pagination',
-                clickable: true,
-              },
-            });
-          </script>
-
-        {{-- <script>
-            var swiper = new Swiper('.swiper-container', {
-              slidesPerView: 6, // Nombre d'éléments à afficher sur écran d'ordinateur
-              spaceBetween: 10,
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
-              pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-              },
-              breakpoints: {
-                1024: {
-                  slidesPerView: 4, // Nombre d'éléments à afficher sur tablette
-                  spaceBetween: 10,
-                },
-                768: {
-                  slidesPerView: 1, // Nombre d'éléments à afficher sur mobile
-                  spaceBetween: 10,
-                },
-              }
-            });
-          </script> --}}
+        
 
 	</body>
 

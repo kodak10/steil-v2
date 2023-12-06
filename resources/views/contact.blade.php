@@ -27,7 +27,7 @@
             <ul class="list list-unstyled text-color-dark font-weight-bold text-4 py-2 my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                 <li class="d-flex align-items-center mb-2">
                     <i class="icons icon-envelope text-color-dark me-2"></i>
-                    Email: <a href="" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">infos@steilautomobile.com
+                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">infos@steilautomobile.com
 
                     </span></a>
                 </li>
