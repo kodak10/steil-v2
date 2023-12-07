@@ -120,7 +120,7 @@
 
 
 
-    @include('layouts.marque')
+    {{-- @include('layouts.marque') --}}
 
 
 @include('layouts.temoignage')
