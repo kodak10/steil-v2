@@ -156,7 +156,7 @@
                 Chez <strong>STEIL AUTOMOBILE</strong>, nous mettons un point d'honneur à fournir des pièces et un service client de qualité. Notre équipe dévouée est là pour vous offrir des conseils d'experts et des solutions personnalisées, en travaillant en étroite collaboration avec vous pour répondre à vos besoins spécifiques.
             </p>
             <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-                <a href="/about" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">PLUS D'INFOS</a>
+                <a href="#" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">PLUS D'INFOS</a>
                 <div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
                     <div class="feature-box-icon bg-transparent">
                         <i class="icons icon-phone text-6 text-color-dark"></i>
@@ -281,7 +281,7 @@
                 <span class="cloud"></span>
                 <div class="col-lg-2 ms-lg-auto">
                     <div class="process-image">
-                        <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/engin.jpg')}}" alt="" />
+                        <img class="img-fluid w-100 h-100" src="{{asset('img/engin/5.jpeg')}}" alt="" />
                         <strong>Engin</strong>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="process-image">
-                        <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/bus.jpg')}}" alt="" />
+                        <img class="img-fluid w-100 h-100" src="{{asset('img/bus/6.jpeg')}}" alt="" />
                         <strong>Bus</strong>
                     </div>
                 </div>
@@ -491,7 +491,7 @@
 
 
 
-@include('layouts.marque')
+{{-- @include('layouts.marque') --}}
 
 
 @include('layouts.temoignage')

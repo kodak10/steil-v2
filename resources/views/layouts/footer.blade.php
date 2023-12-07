@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li class="mb-2 pb-1">
-                        <a href="/about">
+                        <a href="#">
                             <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">A Propos</strong></p>
 
                         </a>

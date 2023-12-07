@@ -20,7 +20,7 @@
 
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="active" href="/">Accueil</a></li>
-                                        <li><a class="" href="/about">A Propos</a></li>
+                                        <li><a class="" href="#">A Propos</a></li>
                                         <li><a class="" href="/pieces">Pièces Auto / Engin / Bus</a></li>
                                         <li><a class="" href="/garage">Garage</a></li>
                                         <li><a class="" href="/contact">Contact</a></li>
