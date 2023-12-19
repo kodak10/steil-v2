@@ -19,13 +19,12 @@
                                 <nav class="collapse">
 
                                     <ul class="nav nav-pills" id="mainNav">
-                                        <li><a class="active" href="/">Accueil</a></li>
-                                        <li><a class="" href="#">A Propos</a></li>
-                                        <li><a class="" href="/pieces">Pièces Auto / Engin / Bus</a></li>
-                                        <li><a class="" href="/garage">Garage</a></li>
-                                        <li><a class="" href="/contact">Contact</a></li>
+                                        <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="/">Accueil</a></li>
+                                        <li><a class="{{ Request::is('about') ? 'active' : '' }}" href="#">A Propos</a></li>
+                                        <li><a class="{{ Request::is('pieces') ? 'active' : '' }}" href="/pieces">Pièces Auto / Engin / Bus</a></li>
+                                        <li><a class="{{ Request::is('garage') ? 'active' : '' }}" href="/garage">Garage</a></li>
+                                        <li><a class="{{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contact</a></li>
                                     </ul>
-
                                 </nav>
                             </div>
                             <ul class="header-social-icons social-icons d-none d-sm-block">
