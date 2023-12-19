@@ -83,7 +83,7 @@
             </div>
 
             <!-- Carousel Slide 3 -->
-            <div class="owl-item position-relative overlay overlay-color-primary overlay-show overlay-op-8 lazyload" data-bg-src="img/slides/slide-bg-6.jpg" style="background-size: cover; background-position: center;">
+            <div class="owl-item position-relative" style="background-image: url(img/slides/slide-bg-performance.jpg); background-color: #2E3136; background-size: cover; background-position: center;"">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-6">
