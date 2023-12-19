@@ -453,7 +453,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-3">
                 <div class="product mb-0">
                     <div class="product-thumb-info border-0 mb-3">
-                        <a href="0777424405" class="quick-view text-uppercase font-weight-semibold text-2">
+                        <a href="tel:0777424405" class="quick-view text-uppercase font-weight-semibold text-2">
                             APPELER
                         </a>
                         <a href="/pieces">
