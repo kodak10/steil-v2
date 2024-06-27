@@ -27,7 +27,7 @@
             <ul class="list list-unstyled text-color-dark font-weight-bold text-4 py-2 my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                 <li class="d-flex align-items-center mb-2">
                     <i class="icons icon-envelope text-color-dark me-2"></i>
-                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">spiritautomobile2032@gmail.com
+                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">infos@steilautomobile.com
 
                     </span></a>
                 </li>
@@ -96,7 +96,8 @@
 <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 <div class="position-relative appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="750">
     <div class="container-fluid">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.377194781948!2d-4.069533025016271!3d5.359282594619493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1eb0034d24721%3A0x7d6317a9785edbe2!2sELBARA-AFRICA%20GROUP!5e0!3m2!1sfr!2sci!4v1719498697390!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.377194781948!2d-4.069533025016271!3d5.359282594619493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1eb0034d24721%3A0x7d6317a9785edbe2!2sELBARA-AFRICA%20GROUP!5e0!3m2!1sfr!2sci!4v1719498697390!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+    </div>
 
 </div>
 
