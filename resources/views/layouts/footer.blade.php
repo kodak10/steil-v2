@@ -9,7 +9,7 @@
                     </div>
                     <div class="feature-box-info line-height-1 ps-2">
                         <span class="d-block font-weight-bold text-color-light text-5 mb-2">Adresse</span>
-                        <p class="text-color-light text-4 line-height-4 font-weight-light mb-0">Abidjan, Yopougon en face de UNIWAX sur l'autoroute du nord
+                        <p class="text-color-light text-4 line-height-4 font-weight-light mb-0">Abidjan, Yopougon sable
 
                         </p>
                     </div>
@@ -22,9 +22,9 @@
                     </div>
                     <div class="feature-box-info line-height-1 ps-2">
                         <span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Nos Contacts</span>
-                        <a href="tel:+2250777424405" class="text-color-light text-4 line-height-7 text-decoration-none">+225 0777424405</a>
+                        <a href="tel:+2250501146545" class="text-color-light text-4 line-height-7 text-decoration-none">+225 0501146545</a>
                         <span class="text-color-light text-4 px-2">/</span>
-                        <a href="tel:+2250707636245" class="text-color-light text-4 line-height-7 text-decoration-none">+225 0707636245</a>
+                        <a href="tel:+2250715071832" class="text-color-light text-4 line-height-7 text-decoration-none">+225 0715071832</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="feature-box-info line-height-1 ps-xl-3">
                         <span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Email</span>
-                        <span class="text-color-light text-4 px-2">infos@steilautomobile.com
+                        <span class="text-color-light text-4 px-2">spiritautomobile2032@gmail.com
 
                         </span>
                     </div>
@@ -53,7 +53,7 @@
         </div> --}}
         <div class="row py-5 my-4">
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                <h5 class="text-3 mb-3">STEIL AUTOMOBILE</h5>
+                <h5 class="text-3 mb-3">SPIRIT AUTOMOBILE</h5>
                 <p class="pe-1">Nous sommes spécialisés dans la vente de pièces automobiles de haute qualité.<br>Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.</p>
 
             </div>
@@ -66,15 +66,15 @@
 
                         </a>
                     </li>
-                    <li class="mb-2 pb-1">
+                    <!-- <li class="mb-2 pb-1">
                         <a href="#">
                             <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">A Propos</strong></p>
 
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/pieces">
-                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Pieces Auto / Engin / Bus</strong></p>
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Pieces Auto</strong></p>
 
                         </a>
                     </li>
@@ -96,10 +96,10 @@
                 <div class="contact-details">
                     <h5 class="text-3 mb-3">NOS CONTACTS</h5>
                     <ul class="list list-icons list-icons-lg">
-                        <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Abidjan, Yopougon en face de UNIWAX sur l'autoroute du nord
+                        <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Abidjan, Yopougon sable
                         </p></li>
-                        <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+2250777424405">(+225) 0777424405</a> <br> <a href="tel:+2250707636245">(+225) 0707636245</a></p></li>
-                        <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href=""><span class="" >infos@steilautomobile.com
+                        <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+2250501146545">(+225) 0501146545</a> <br> <a href="tel:+2250715071832">(+225) 0715071832</a></p></li>
+                        <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href=""><span class="" >spiritautomobile2032@gmail.com
                         </span></a></p></li>
                     </ul>
                 </div>
@@ -112,7 +112,7 @@
             <div class="row py-4">
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                     <a href="/" class="logo pe-0 pe-lg-3">
-                        STEIL AUTOMOBILE
+                        SPIRIT AUTOMOBILE
                     </a>
                 </div>
                 <div class="col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">

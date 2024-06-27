@@ -36,6 +36,28 @@
     <div class="owl-stage-outer">
         <div class="owl-stage">
 
+        <!-- Carousel Slide 3 -->
+        <div class="owl-item position-relative" style="background-image: url(img/slides/slide-bg-performance.jpg); background-color: #2E3136; background-size: cover; background-position: center;"">
+                <div class="container position-relative z-index-3 h-100">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                <h2 class="W-100 text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                    <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+                                        <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
+                                    </span>
+                                    PIECES AUTO DE QUALITE POUR TOUTES MARQUES
+                                    <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+                                        <img src="img/lazy.png" data-src="img/slides/various-work-tools-worktop.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
+                                    </span>
+                                </h2>
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Vaste sélection de pièces auto pour toutes marques et modèles. Freins, filtres, courroies et plus, à des prix compétitifs. Profitez d'un service client exceptionnel pour une expérience d'achat en ligne sans tracas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Carousel Slide 1 -->
             <div class="owl-item position-relative" style="background-image: url(img/slides/IMG-1.jpg); background-color: #2E3136; background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-1 h-100">
@@ -45,14 +67,14 @@
                             <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
                                 <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                             </span>
-                            VENTE DE PIECES AUTOMOBILE, BUS, ENGIN
+                            VENTE DE PIECES AUTOMOBILE
                             <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
                                 <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                             </span>
                         </h2>
 
 
-                        <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p>
+                        <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile dont vous avez besoins pour votre activitée.</p>
                     </div>
                 </div>
             </div>
@@ -75,34 +97,14 @@
 
                                 </h2>
 
-                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p> --}}
+                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile dont vous avez besoins pour votre activitée.</p> --}}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Carousel Slide 3 -->
-            <div class="owl-item position-relative" style="background-image: url(img/slides/slide-bg-performance.jpg); background-color: #2E3136; background-size: cover; background-position: center;"">
-                <div class="container position-relative z-index-3 h-100">
-                    <div class="row justify-content-center align-items-center h-100">
-                        <div class="col-lg-6">
-                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
-                                <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                    <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-                                        <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
-                                    </span>
-                                    VENTE ET LOCATION D'ENGIN
-                                    <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-                                        <img src="img/lazy.png" data-src="img/slides/slide-title-border.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
-                                    </span>
-                                </h2>
-                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile et d'engins dont vous avez besoins pour votre activitée.</p> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
         </div>
     </div>
@@ -143,7 +145,7 @@
     <div class="row align-items-center justify-content-center pb-4 mb-5">
         <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
             <div class="overflow-hidden">
-                <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation mb-5" data-appear-animation="maskUp" data-appear-animation-delay="300">A PROPOS DE STEIL AUTOMOBILE</h2>
+                <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation mb-5" data-appear-animation="maskUp" data-appear-animation-delay="300">A PROPOS DE SPIRIT AUTOMOBILE</h2>
             </div>
             <div class="custom-divider divider divider-primary divider-small my-3 mb-5">
                 <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
@@ -153,7 +155,7 @@
 
                 Mais notre expertise ne s'arrête pas là. En plus de la vente de pièces auto, nous offrons également des services complémentaires tels que la location et la réparation d'engins.
 
-                Chez <strong>STEIL AUTOMOBILE</strong>, nous mettons un point d'honneur à fournir des pièces et un service client de qualité. Notre équipe dévouée est là pour vous offrir des conseils d'experts et des solutions personnalisées, en travaillant en étroite collaboration avec vous pour répondre à vos besoins spécifiques.
+                Chez <strong>SPIRIT AUTOMOBILE</strong>, nous mettons un point d'honneur à fournir des pièces et un service client de qualité. Notre équipe dévouée est là pour vous offrir des conseils d'experts et des solutions personnalisées, en travaillant en étroite collaboration avec vous pour répondre à vos besoins spécifiques.
             </p>
             <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
                 <a href="#" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">PLUS D'INFOS</a>
@@ -164,8 +166,8 @@
                     <div class="feature-box-info line-height-2 ps-1">
                         <span class="d-block text-1 font-weight-semibold text-color-default">CONTACTS</span>
                         <strong class="text-4-5">
-                            <a href="tel:0777424405" class="text-color-dark text-color-hover-primary text-decoration-none">0777424405</a> <br>
-                            <a href="tel:0707636245" class="text-color-dark text-color-hover-primary text-decoration-none">0707636245</a>
+                            <a href="tel:0501146545" class="text-color-dark text-color-hover-primary text-decoration-none">0501146545</a> <br>
+                            <a href="tel:0715071832" class="text-color-dark text-color-hover-primary text-decoration-none">0715071832</a>
                         </strong>
                     </div>
                 </div>
@@ -217,8 +219,8 @@
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                         {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobile, engin et bus</h3>
-                    <p>Boostez votre productivité avec notre service de vente et location d'engins, offrant des solutions flexibles pour répondre à tous vos besoins professionnel</p>
+                    <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobile</h3>
+                    <p>Boostez votre productivité avec notre service de vente de pièces automobile, offrant des solutions flexibles pour répondre à tous vos besoins professionnel</p>
                 </div>
             </a>
         </div>
@@ -254,12 +256,12 @@
     <div class="row text-center pt-3">
         <div class="col-md-10 mx-md-auto">
             <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
-                <span>Chez <strong>Steil Automobile</strong>, notre priorité est de répondre à vos attentes en matière de</span>
+                <span>Chez <strong>SPIRIT AUTOMOBILE</strong>, notre priorité est de répondre à vos attentes en matière de</span>
                 <span class="word-rotator-words bg-dark text-center m-auto">
 
                     <b class="is-visible m-auto text-center">pièces automobile</b>
                     <b class="m-auto text-center">engin</b>
-                    <b class="m-auto text-center">bus</b>
+                    <!-- <b class="m-auto text-center">bus</b> -->
                     <b class="m-auto text-center">garage</b>
 
                 </span>
@@ -279,24 +281,24 @@
             <div class="row text-center">
                 <span class="sun"></span>
                 <span class="cloud"></span>
-                <div class="col-lg-2 ms-lg-auto">
+                <div class="col-lg-3 ms-lg-auto">
                     <div class="process-image">
                         <img class="img-fluid w-100 h-100" src="{{asset('img/engin/5.jpeg')}}" alt="" />
                         <strong>Engin</strong>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-3">
                     <div class="process-image process-image-on-middle">
                         <img class="img-fluid w-100 h-100" src="{{asset('img/04_images/garage.jpg')}}" alt="" />
                         <strong>Garage</strong>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <!-- <div class="col-lg-2">
                     <div class="process-image">
                         <img class="img-fluid w-100 h-100" src="{{asset('img/bus/6.jpeg')}}" alt="" />
                         <strong>Bus</strong>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 ms-lg-auto">
                     <div class="project-image">
                         <div id="fcSlideshow" class="fc-slideshow">
@@ -395,8 +397,8 @@
                         <div class="feature-box-info line-height-2 ps-1">
                             <span class="d-block text-1 font-weight-semibold text-color-light mb-1 text-center">APPELER NOUS AU</span>
                             <strong class="text-4-5">
-                                <a href="tel:+2250777424405" class="text-color-light text-decoration-none">+225 0777424405</a> <br>
-                                <a href="tel:+2250707636245" class="text-color-light text-decoration-none">+225 0707636245</a>
+                                <a href="tel:+2250501146545" class="text-color-light text-decoration-none">+225 0501146545</a> <br>
+                                <a href="tel:+2250715071832" class="text-color-light text-decoration-none">+225 0715071832</a>
                             </strong>
                         </div>
                     </div>
@@ -453,7 +455,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-3">
                 <div class="product mb-0">
                     <div class="product-thumb-info border-0 mb-3">
-                        <a href="tel:0777424405" class="quick-view text-uppercase font-weight-semibold text-2">
+                        <a href="tel:0501146545" class="quick-view text-uppercase font-weight-semibold text-2">
                             APPELER
                         </a>
                         <a href="/pieces">
@@ -484,8 +486,8 @@
 </section>
 
 
-    @include('layouts.page_engin')
-    @include('layouts.page_bus')
+    <!-- @include('layouts.page_engin') -->
+    <!-- @include('layouts.page_bus') -->
 
 
 

@@ -6,7 +6,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="/">
-                                <img alt="Steil Automobile" width="100" height="100" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="img/logo-default-slim.jpeg">
+                                <img class="img-fluid" alt="SPIRIT AUTOMOBILE" style="height:100px !important;" data-sticky-width="100%" data-sticky-height="100%" data-sticky-top="25" src="img/logo-default-slim.png">
                             </a>
                         </div>
                     </div>
@@ -20,8 +20,8 @@
 
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="/">Accueil</a></li>
-                                        <li><a class="{{ Request::is('about') ? 'active' : '' }}" href="#">A Propos</a></li>
-                                        <li><a class="{{ Request::is('pieces') ? 'active' : '' }}" href="/pieces">Pièces Auto / Engin / Bus</a></li>
+                                        <!-- <li><a class="{{ Request::is('about') ? 'active' : '' }}" href="#">A Propos</a></li> -->
+                                        <li><a class="{{ Request::is('pieces') ? 'active' : '' }}" href="/pieces">Pièces Auto</a></li>
                                         <li><a class="{{ Request::is('garage') ? 'active' : '' }}" href="/garage">Garage</a></li>
                                         <li><a class="{{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contact</a></li>
                                     </ul>

@@ -21,20 +21,20 @@
     <div class="row align-items-center">
         <div class="col-lg-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0">
             <div class="overflow-hidden">
-                <h2 class="text-color-dark font-weight-bold line-height-3 text-5-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Abidjan, Yopougon en face de UNIWAX sur l'autoroute du nord</h2>
+                <h2 class="text-color-dark font-weight-bold line-height-3 text-5-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Abidjan, Yopougon sable</h2>
             </div>
 
             <ul class="list list-unstyled text-color-dark font-weight-bold text-4 py-2 my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                 <li class="d-flex align-items-center mb-2">
                     <i class="icons icon-envelope text-color-dark me-2"></i>
-                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">infos@steilautomobile.com
+                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">spiritautomobile2032@gmail.com
 
                     </span></a>
                 </li>
                 <li class="d-flex align-items-center mb-0">
                     <i class="icons icon-phone text-color-dark me-2"></i>
-                    Téléphone: <a href="tel:0777424405" class="text-color-dark text-color-hover-primary text-decoration-none ms-1">+225 0777424405</a> <br>
-                    <a href="tel:0707636245" class="text-color-dark text-color-hover-primary text-decoration-none ms-1">+225 0707636245</a>
+                    Téléphone: <a href="tel:0501146545" class="text-color-dark text-color-hover-primary text-decoration-none ms-1">+225 0501146545</a> <br>
+                    <a href="tel:0715071832" class="text-color-dark text-color-hover-primary text-decoration-none ms-1">+225 0715071832</a>
                 </li>
             </ul>
             <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
@@ -96,8 +96,7 @@
 <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 <div class="position-relative appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="750">
     <div class="container-fluid">
-        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127109.37359526935!2d-3.998058399999977!3d5.391362400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sci!4v1687642056615!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.377194781948!2d-4.069533025016271!3d5.359282594619493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1eb0034d24721%3A0x7d6317a9785edbe2!2sELBARA-AFRICA%20GROUP!5e0!3m2!1sfr!2sci!4v1719498697390!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
 
 </div>
 
