@@ -51,7 +51,7 @@
                                         <img src="img/lazy.png" data-src="img/slides/various-work-tools-worktop.png" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                     </span>
                                 </h2>
-                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Vaste sélection de pièces auto pour toutes marques et modèles. Freins, filtres, courroies et plus, à des prix compétitifs. Profitez d'un service client exceptionnel pour une expérience d'achat en ligne sans tracas.</p>
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 8000, 'minWindowWidth': 0}">Vaste sélection de pièces auto pour toutes marques et modèles. Freins, filtres, courroies et plus, à des prix compétitifs. Profitez d'un service client exceptionnel pour une expérience d'achat en ligne sans tracas.</p>
                             </div>
                         </div>
                     </div>
