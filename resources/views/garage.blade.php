@@ -31,13 +31,25 @@
         </div>
     </div>
     <div class="row row-gutter-sm mb-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="950">
+
+        <div class="col-sm-6 col-lg-4 text-center mb-4 mb-lg-0 mb-5">
+            <a href="#" class="text-decoration-none">
+                <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
+                    <div class="thumb-info-wrapper">
+                        <img src="{{asset('img/garage/img_6.jpg')}}" class="img-fluid" alt="">
+                    </div>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Mécanique Générale</h3>
+                </div>
+            </a>
+        </div>
+        
         <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Entretien.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_1.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Entretien</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Vidange</h3>
                 </div>
             </a>
         </div>
@@ -45,9 +57,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Reparation.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_2.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de moteur</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Tolleterie</h3>
                 </div>
             </a>
         </div>
@@ -55,9 +67,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/transmission.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_3.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de la transmission</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Electricité</h3>
                 </div>
             </a>
         </div>
@@ -65,9 +77,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/reparation_vehicule.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_4.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation du système électrique</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Peinture</h3>
                 </div>
             </a>
         </div>
@@ -76,22 +88,13 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Climatisation.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_5.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de la climatisation et du système de refroidissement</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Maintencance</h3>
                 </div>
             </a>
         </div>
-        <div class="col-sm-6 col-lg-4 text-center mb-4 mb-lg-0 mb-5">
-            <a href="#" class="text-decoration-none">
-                <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
-                    <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Carrosserie.jpg')}}" class="img-fluid" alt="">
-                    </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de la carrosserie</h3>
-                </div>
-            </a>
-        </div>
+        
 
     </div>
 </div>
