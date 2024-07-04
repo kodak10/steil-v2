@@ -55,12 +55,10 @@
 					line-height: 40px !important;
 		 		}
 
-				 .header-logo a img {
-        height: 80px; /* Hauteur par défaut pour les écrans plus petits */
-    }
-    @media (min-width: 991px){
-        .header-logo a img {
-            height: 100px !important;
+				 
+    @media (max-width: 991px){
+		#header .header-logo img{
+            height: 60px !important;
         }
     }
 			}
