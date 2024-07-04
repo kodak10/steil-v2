@@ -8,7 +8,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="/">
-                                <img alt="SPIRIT AUTOMOBILE" style="height:100px !important;" data-sticky-width="100%" data-sticky-height="100%" data-sticky-top="25" src="img/logo-default-slim.png">
+                                <img alt="SPIRIT AUTOMOBILE" style="height:100px !important;" data-sticky-width="100%" data-sticky-height="100%" data-sticky-top="25" src="img/log.png">
                             </a>
                         </div>
                     </div>
