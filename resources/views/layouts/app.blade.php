@@ -58,7 +58,7 @@
 				 
     @media (max-width: 991px){
 		#header .header-logo img{
-            height: 60px !important;
+            height: 50px !important;
         }
     }
 			}

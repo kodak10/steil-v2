@@ -86,7 +86,7 @@
                     </li>
                     <li>
                         <a href="/contact">
-                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Contact</strong></p>
+                            <p class="text-3 text-color-light opacity-8 mb-0"><i class="fas fa-angle-right text-color-primary"></i><strong class="ms-2 font-weight-semibold">Contacts</strong></p>
 
                         </a>
                     </li>
