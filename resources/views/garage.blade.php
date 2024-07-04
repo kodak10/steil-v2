@@ -42,7 +42,7 @@
                 </div>
             </a>
         </div>
-        
+
         <div class="col-sm-6 col-lg-4 text-center mb-5">
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
@@ -90,7 +90,7 @@
                     <div class="thumb-info-wrapper">
                         <img src="{{asset('img/garage/img_5.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Maintencance</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Maintenance</h3>
                 </div>
             </a>
         </div>
