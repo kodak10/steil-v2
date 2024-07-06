@@ -220,7 +220,7 @@
                         {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
                     <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobile</h3>
-                    <p>Boostez votre productivité avec notre service de vente de pièces automobile, offrant des solutions flexibles pour répondre à tous vos besoins professionnel</p>
+                    <p>Boostez votre productivité avec notre service de vente de pièces automobile, offrant des solutions flexibles pour répondre à tous vos besoins professionnels</p>
                 </div>
             </a>
         </div>
@@ -334,9 +334,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Entretien.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_6.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Entretien</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Mécanique Générale</h3>
                 </div>
             </a>
         </div>
@@ -344,9 +344,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/Reparation.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_1.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de moteur
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Vidange
                     </h3>
                 </div>
             </a>
@@ -355,9 +355,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/transmission.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_2.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation de la transmission</h3>
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Tolleterie</h3>
                 </div>
             </a>
         </div>
@@ -365,9 +365,9 @@
             <a href="#" class="text-decoration-none">
                 <div class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten">
                     <div class="thumb-info-wrapper">
-                        <img src="{{asset('img/garage/reparation_vehicule.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garage/img_3.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Réparation du système électrique
+                    <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Electricité
                     </h3>
                 </div>
             </a>
@@ -375,7 +375,7 @@
     </div>
     <div class="row">
         <div class="col text-center">
-            <a href="/garage" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 btn-px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850">VOIR TOUT LES SERVICES</a>
+            <a href="/garage" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 btn-px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850">VOIR TOUS LES SERVICES</a>
         </div>
     </div>
 </div>
