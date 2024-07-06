@@ -22,12 +22,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                    <h1 data-title-border>PIECES AUTOMOBILE / BUS / ENGIN</h1>
+                    <h1 data-title-border>PIECES AUTOMOBILE</h1>
                 </div>
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
                     <ul class="breadcrumb d-block text-md-end">
                         <li><a href="/">Accueil</a></li>
-                        <li class="active">Pieces Automobile / Bus / Engin</li>
+                        <li class="active">Pieces Automobile</li>
                     </ul>
                 </div>
             </div>
