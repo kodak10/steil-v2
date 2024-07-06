@@ -74,7 +74,7 @@
                         </h2>
 
 
-                        <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile dont vous avez besoins pour votre activitée.</p>
+                        <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobiles dont vous avez besoins pour votre activitée.</p>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
 
                                 </h2>
 
-                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobile dont vous avez besoins pour votre activitée.</p> --}}
+                                {{-- <p class="text-4 text-color-light font-weight-light opacity-7 mb-0"  data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Explorez, découvrez plusieurs pièces automobiles dont vous avez besoins pour votre activitée.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                 <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
             </div>
             <p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">
-                Nous sommes spécialisés dans la vente de pièces automobiles de haute qualité. Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.
+                Nous sommes spécialisés dans la vente de pièces automobiless de haute qualité. Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.
 
                 Mais notre expertise ne s'arrête pas là. En plus de la vente de pièces auto, nous offrons également des services complémentaires tels que la location et la réparation d'engins.
 
@@ -219,8 +219,8 @@
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                         {{-- <img width="50" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" /> --}}
                     </div>
-                    <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobile</h3>
-                    <p>Boostez votre productivité avec notre service de vente de pièces automobile, offrant des solutions flexibles pour répondre à tous vos besoins professionnels</p>
+                    <h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Vente de pièces automobiles</h3>
+                    <p>Boostez votre productivité avec notre service de vente de pièces automobiles, offrant des solutions flexibles pour répondre à tous vos besoins professionnels</p>
                 </div>
             </a>
         </div>
@@ -259,7 +259,7 @@
                 <span>Chez <strong>SPIRIT AUTOMOBILE</strong>, notre priorité est de répondre à vos attentes en matière de</span>
                 <span class="word-rotator-words bg-dark text-center m-auto">
 
-                    <b class="is-visible m-auto text-center">pièces automobile</b>
+                    <b class="is-visible m-auto text-center">pièces automobiles</b>
                     <b class="m-auto text-center">engin</b>
                     <!-- <b class="m-auto text-center">bus</b> -->
                     <b class="m-auto text-center">garage</b>
@@ -308,7 +308,7 @@
                                 <li><a aria-label=""><img class="img-fluid w-100" src="{{asset('img/04_images/piece_3.jpg')}}" alt="" /></a></li>
                             </ul>
                         </div>
-                        <strong class="our-work">Pièces Automobile</strong>
+                        <strong class="our-work">pièces automobiles</strong>
                     </div>
                 </div>
             </div>

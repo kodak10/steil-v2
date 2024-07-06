@@ -38,7 +38,7 @@
                 </li>
             </ul>
             <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
-                Nous sommes là pour vous aider avec vos besoins de pièces automobile, de réparation et d'entretien automobile. Entrez, appelez-nous ou envoyez-nous un email. Nous vous répondrons dès que possible pendant les heures normales de bureau.            </p>
+                Nous sommes là pour vous aider avec vos besoins de pièces automobiles, de réparation et d'entretien automobile. Entrez, appelez-nous ou envoyez-nous un email. Nous vous répondrons dès que possible pendant les heures normales de bureau.            </p>
         </div>
         <div class="col-lg-6 col-xl-5 offset-lg-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
             <form class="contact-form custom-form-style-1" action="{{route('mail')}}" method="post">

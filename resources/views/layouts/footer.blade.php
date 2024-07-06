@@ -54,7 +54,7 @@
         <div class="row py-5 my-4">
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <h5 class="text-3 mb-3">SPIRIT AUTOMOBILE</h5>
-                <p class="pe-1">Nous sommes spécialisés dans la vente de pièces automobiles de haute qualité.<br>Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.</p>
+                <p class="pe-1">Nous sommes spécialisés dans la vente de pièces automobiless de haute qualité.<br>Nous proposons une large gamme de pièces détachées provenant de marques réputées, couvrant différents modèles et types de véhicules.</p>
 
             </div>
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
