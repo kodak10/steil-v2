@@ -7,10 +7,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>SPIRIT AUTOMOBILE</title>
+		<title>STEIL AUTOMOBILE</title>
 
 		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="SPIRIT AUTOMOBILE - Vente de pieces auto et location et vente de bus et engin">
+		<meta name="description" content="STEIL AUTOMOBILE - Vente de pieces auto et location et vente de bus et engin">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->

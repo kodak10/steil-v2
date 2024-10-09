@@ -4,7 +4,8 @@
         <div class="row justify-content-center pb-3 mb-4">
             <div class="col text-center">
                 <h2 class="font-weight-bold text-color-dark line-height-1 mb-0">
-                    Les témoignages de nos clients sur SPIRIT AUTOMOBILE.</h2>
+                Témoignages
+                </h2>
                 <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
                     <hr class="my-0">
                 </div>

@@ -21,13 +21,13 @@
     <div class="row align-items-center">
         <div class="col-lg-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0">
             <div class="overflow-hidden">
-                <h2 class="text-color-dark font-weight-bold line-height-3 text-5-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Abidjan, Yopougon sable</h2>
+                <h2 class="text-color-dark font-weight-bold line-height-3 text-5-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Abidjan, Yopougon en face de UNIWAX sur l'autoroute du nord</h2>
             </div>
 
             <ul class="list list-unstyled text-color-dark font-weight-bold text-4 py-2 my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                 <li class="d-flex align-items-center mb-2">
                     <i class="icons icon-envelope text-color-dark me-2"></i>
-                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">infos@steilautomobile.com
+                    Email: <a href="#" class="text-color-dark text-color-hover-primary text-decoration-none ms-1"><span class="">dafstephane@gmail.com
 
                     </span></a>
                 </li>
@@ -41,7 +41,8 @@
                 Nous sommes là pour vous aider avec vos besoins de pièces automobile, de réparation et d'entretien automobile. Entrez, appelez-nous ou envoyez-nous un email. Nous vous répondrons dès que possible pendant les heures normales de bureau.            </p>
         </div>
         <div class="col-lg-6 col-xl-5 offset-lg-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
-            <form class="contact-form custom-form-style-1" action="{{route('mail')}}" method="post">
+            <form class="contact-form custom-form-style-1" action="#" method="post">
+            {{-- <form class="contact-form custom-form-style-1" action="{{route('mail')}}" method="post"> --}}
 
                 @csrf
                 <div class="row">

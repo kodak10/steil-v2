@@ -9,7 +9,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="/">
-                                <img alt="SPIRIT AUTOMOBILE" style="height:100px " data-sticky-width="100%" data-sticky-height="100%" data-sticky-top="25" src="img/log.png">
+                                <img alt="STEIL AUTOMOBILE" style="height:100px " data-sticky-width="100%" data-sticky-height="100%" data-sticky-top="25" src="img/logo.png">
                             </a>
                         </div>
                     </div>
@@ -31,8 +31,8 @@
                                 </nav>
                             </div>
                             <ul class="header-social-icons social-icons d-none d-sm-block">
-                                <li class="social-icons-facebook"><a href="https://www.facebook.com/spiritautomobileci/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-facebook"><a href="https://www.tiktok.com/@spirit.automobile7?_t=8nkMRW2sPIL&_r=1" target="_blank" title="Facebook"><i class="fab fa-tiktok"></i></a></li>
+                                <li class="social-icons-facebook"><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-facebook"><a href="#" target="_blank" title="Facebook"><i class="fab fa-tiktok"></i></a></li>
                                 <li class="social-icons-instagram"><a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                             <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
