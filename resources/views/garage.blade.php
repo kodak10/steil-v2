@@ -98,5 +98,5 @@
 
 {{-- @include('layouts.marque') --}}
 
-@include('layouts.temoignage')
+{{-- @include('layouts.temoignage') --}}
 @endsection

@@ -5,7 +5,7 @@
         <div class="row justify-content-center pb-3 mb-4">
             <div class="col-lg-8 text-center">
                 <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Les Marques Automobile</h2>
+                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Les Marques Automobiles</h2>
                 </div>
                 <div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
                     <hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
@@ -15,8 +15,8 @@
 
         <div class="row align-items-center text-center py-5">
             @foreach ($marques as $marque )
-                <div class="col-sm-2 col-lg-2 mb-5 mb-lg-0">
-                    <img src="{{$marque->chemin }}" alt class="img-fluid" style="max-width: 90px;" />
+                <div class="col-4 col-sm-2 col-lg-2 mb-5 mb-lg-0">
+                    <img src="{{$marque->chemin }}" alt class="img-fluid" style="height:60px !important;" />
                 </div>
             @endforeach
 

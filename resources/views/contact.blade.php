@@ -101,6 +101,6 @@
 
 </div>
 
-@include('layouts.temoignage')
+{{-- @include('layouts.temoignage') --}}
 
 @endsection

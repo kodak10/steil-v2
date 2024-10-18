@@ -7,11 +7,12 @@
         height: 100%;
         width: 100%;
     }
-    .marques{
-        background-color: var(--primary) !important;
-        height: 100%;
-        width: 100%;
-    }
+    .marques {
+    background-color: var(--primary) !important;
+    width: 100vw !important; /* Prend 100% de la largeur de l'écran */
+    margin-left: -15px; /* Enlève le padding par défaut de la grille */
+    margin-right: -15px; /* Enlève le padding par défaut de la grille */
+}
 </style>
 
 <section class="section engin border-0 m-0">
@@ -27,182 +28,34 @@
         </div>
         <div class="row">
 
-            <div class="col-lg-9">
-                <div class="owl-carousel nav-outside nav-style-1 nav-dark nav-arrows-thin nav-font-size-lg custom-carousel-box-shadow-1 mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 2}, '1199': {'items': 3}}, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': false, 'nav': true, 'loop': true, 'margin': 15, 'stagePadding': '75'}">
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/1.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/2.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/3.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/4.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/5.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/6.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/7.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/8.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/9.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/10.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/11.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/12.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/engin/13.jpeg')}}" alt="" style="height:350px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-12">
+                <div class="owl-carousel owl-theme">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=6" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=7" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=8" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=9" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=10" alt="">
+                    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=11" alt="">
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="marques d-flex justify-content-center align-items-center">
-                    <div class="row p-2">
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/sinotruk.png')}}" alt="" >
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/shacman-logo-2000x1700.png')}}" alt="">
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/foton.png')}}" alt="">
-                        </div>
 
-                    </div>
-                </div>
-            </div>
+
+           
+            
         </div>
     </div>
 </section>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    items:4,
+    lazyLoad:true,
+    loop:true,
+    margin:10
+});
+</script>

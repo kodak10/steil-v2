@@ -4,7 +4,7 @@
             <div class="col-md-4 mb-5 mb-md-0">
                 <div class="feature-box flex-column flex-xl-row align-items-center align-items-lg-start text-center text-lg-start">
                     <div class="feature-box-icon bg-transparent mb-4 mb-xl-0 p-0">
-                        <i class="fa-solid fa-location-dot text-9 text-color-light position-relative top-4"></i>
+                        <i class="fa-solid fa-location-dot text-5 text-color-light position-relative top-4"></i>
                         {{-- <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/icon-location.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" /> --}}
                     </div>
                     <div class="feature-box-info line-height-1 ps-2">
@@ -18,7 +18,7 @@
             <div class="col-md-4 mb-5 mb-md-0">
                 <div class="feature-box flex-column flex-xl-row align-items-center align-items-lg-start text-center text-lg-start">
                     <div class="feature-box-icon bg-transparent mb-4 mb-xl-0 p-0">
-                        <i class="icons icon-phone text-9 text-color-light position-relative top-4"></i>
+                        <i class="icons icon-phone text-5 text-color-light position-relative top-4"></i>
                     </div>
                     <div class="feature-box-info line-height-1 ps-2">
                         <span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Nos Contacts</span>
@@ -31,7 +31,7 @@
             <div class="col-md-4">
                 <div class="feature-box flex-column flex-xl-row align-items-center align-items-lg-start text-center text-lg-start">
                     <div class="feature-box-icon bg-transparent mb-4 mb-xl-0 p-0">
-                        <i class="fa-solid fa-envelope text-9 text-color-light position-relative top-4"></i>
+                        <i class="fa-solid fa-envelope text-5 text-color-light position-relative top-4"></i>
                         {{-- <img width="45" src="https://www.okler.net/previews/porto/10.0.0/img/demos/auto-services/icons/car-winch.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light position-relative bottom-3'}" /> --}}
                     </div>
                     <div class="feature-box-info line-height-1 ps-xl-3">

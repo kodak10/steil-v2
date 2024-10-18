@@ -1,5 +1,5 @@
 <!-- Testimonials -->
-<section class="section border-0 m-0">
+<section class="border-0 m-0">
     <div class="container pb-3 my-5">
         <div class="row justify-content-center pb-3 mb-4">
             <div class="col text-center">
