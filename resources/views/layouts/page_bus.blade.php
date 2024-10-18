@@ -7,11 +7,20 @@
         height: 100%;
         width: 100%;
     }
-    .marques{
-        background-color: var(--primary) !important;
-        height: 100%;
-        width: 100%;
-    }
+    .marques {
+    background-color: var(--primary) !important;
+    width: 100vw !important; /* Prend 100% de la largeur de l'écran */
+    margin-left: -15px; /* Enlève le padding par défaut de la grille */
+    margin-right: -15px; /* Enlève le padding par défaut de la grille */
+}
+
+    .owl-carousel .card{
+    border: 1px solid var(--primary) !important;
+}
+.owl-carousel .card img{
+    height: 300px !important;
+    width: 100% !important;
+}
 </style>
 
 <section class="section bus border-0 m-0">
@@ -27,125 +36,40 @@
         </div>
         <div class="row">
 
-            <div class="col-lg-9">
+            <div class="col-lg-12">
                 <div class="owl-carousel nav-outside nav-style-1 nav-dark nav-arrows-thin nav-font-size-lg custom-carousel-box-shadow-1 mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 2}, '1199': {'items': 3}}, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': false, 'nav': true, 'loop': true, 'margin': 15, 'stagePadding': '75'}">
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/1.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/2.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/3.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/4.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/5.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/6.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/7.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="product-img">
-                            <a  href="#">
-                                <img class="" src="{{asset('img/bus/8.jpeg')}}" alt="" style="height:400px !important; width:100% !important">
-                            </a>
-                            <div class="button-head " style="text-align: center !important;">
-                                <div class="product-action-2 text-center p-2" >
-                                    <a  href="tel:+2250777424405">Appeler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="marques d-flex justify-content-center align-items-center">
-                    <div class="row p-2">
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/1688757292_yutong.png')}}" alt="" >
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/1688757292_higer-logo.png')}}" alt="">
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/1688757292_king-long.png')}}" alt="">
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="img-fluid" src="{{asset('img/marques/1688757292_Golden_Dragon.png')}}" alt="">
-                        </div>
 
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/1.jpeg')}}" class="card-img-top" alt="...">
                     </div>
-                </div>
-            </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/2.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/3.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/4.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/5.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/6.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/7.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="{{asset('img/bus/8.jpeg')}}" class="card-img-top" alt="...">
+                    </div>
         </div>
     </div>
 </section>

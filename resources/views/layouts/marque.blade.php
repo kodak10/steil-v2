@@ -1,8 +1,8 @@
 <!-- Marques -->
 <section class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0">
-    <div class="container py-4">
+    <div class="container">
 
-        <div class="row justify-content-center pb-3 mb-4">
+        <div class="row justify-content-center pb-3 mb-4 mt-5">
             <div class="col-lg-8 text-center">
                 <div class="overflow-hidden">
                     <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Les Marques Automobiles</h2>
@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center text-center py-5">
+        <div class="row align-items-center text-center">
             @foreach ($marques as $marque )
                 <div class="col-4 col-sm-2 col-lg-2 mb-5 mb-lg-0">
                     <img src="{{$marque->chemin }}" alt class="img-fluid" style="height:60px !important;" />
