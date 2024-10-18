@@ -3,7 +3,7 @@
 
 <style>
     h2{
-        font-family: cursive, sans-serif !important
+        font-family: 'Mogra', sans-serif;
     }
     .custom-icon-style-1 {
         position: relative;

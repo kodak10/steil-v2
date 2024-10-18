@@ -49,12 +49,73 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
+		<link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
 
+
+<style>
+	/* Style du préchargeur */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: #0088cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-out;
+}
+
+.preloader-content {
+    text-align: center;
+}
+
+.preloader-content img {
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+.preloader-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 15px;
+}
+
+/* Animation de rotation de l'image */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Masquer le preloader après chargement */
+body.loaded #preloader {
+    opacity: 0;
+    visibility: hidden;
+}
+
+</style>
         
 	</head>
 
 	<body data-plugin-page-transition>
+
+
 		<div class="body">
+			<div id="preloader">
+				<div class="preloader-content">
+					<img src="{{asset('img/preloader.png')}}" alt="Preloader Image">
+					<p>Chargement...</p>
+				</div>
+			</div>
+			
 
             @include('layouts.header')
 			<!-- Header -->
@@ -87,7 +148,13 @@
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
+<script>
+	// Script pour masquer le preloader une fois que la page est complètement chargée
+window.addEventListener('load', function () {
+    document.body.classList.add('loaded');
+});
 
+</script>
         
 
 	</body>
