@@ -52,56 +52,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
 
 
-<style>
-	/* Style du préchargeur */
-#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    background-color: #0088cc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s ease-out;
-}
 
-.preloader-content {
-    text-align: center;
-}
-
-.preloader-content img {
-    width: 80px;
-    height: 80px;
-    animation: spin 1s linear infinite;
-}
-
-.preloader-content p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #333333;
-    margin-top: 15px;
-}
-
-/* Animation de rotation de l'image */
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-/* Masquer le preloader après chargement */
-body.loaded #preloader {
-    opacity: 0;
-    visibility: hidden;
-}
-
-</style>
         
 	</head>
 
@@ -133,6 +84,12 @@ body.loaded #preloader {
 		</div>
 
 
+		<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+
+  		<div id="preloader"></div>
+
+		<script src="js/style.js"></script>
+
 
 		<!-- Vendor -->
 		<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="vendor/plugins/js/plugins.min.js"></script>
@@ -148,6 +105,7 @@ body.loaded #preloader {
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
+		
 <script>
 	// Script pour masquer le preloader une fois que la page est complètement chargée
 window.addEventListener('load', function () {
