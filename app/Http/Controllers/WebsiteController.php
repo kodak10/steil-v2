@@ -40,7 +40,7 @@ class WebsiteController extends Controller
         //$pieces = Piece::paginate(9);
         $banner_engins = Engin::latest()->take(1)->get();
         $banner_pieces = Piece::latest()->take(2)->get();
-        $pieces = Piece::orderBy('created_at', 'asc')->paginate(12);
+        $pieces = Piece::orderBy('id', 'asc')->paginate(12);
         
 
         // $query = Piece::inRandomOrder()->query();
