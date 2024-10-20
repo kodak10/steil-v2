@@ -5,7 +5,7 @@
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: #0088cc;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -18,10 +18,6 @@
   line-height: 0;
 }
 
-.scroll-top:hover {
-  background: #ffc732;
-  color: #fff !important;
-}
 
 .scroll-top.active {
   visibility: visible;
@@ -51,6 +47,7 @@
   width: 60px;
   height: 60px;
   animation: animate-preloader 1.5s linear infinite;
+  transition: all 0.3s ease-in-out;
 }
 
 body.loaded #preloader {

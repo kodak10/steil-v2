@@ -87,36 +87,72 @@ class WebsiteController extends Controller
     }
 
     public function search(Request $request)
-    {
-        $engins = Engin::get();
-        $marques = Marque::all();
-        //$pieces = Piece::paginate(9);
-        $banner_engins = Engin::latest()->take(1)->get();
-        $banner_pieces = Piece::latest()->take(2)->get();
-        $top_pieces_buys = Piece::orderBy('created_at', 'asc')->take(2)->get();
+{
+    $engins = Engin::get();
+    $marques = Marque::all();
+    $banner_engins = Engin::latest()->take(1)->get();
+    $banner_pieces = Piece::latest()->take(2)->get();
+    $top_pieces_buys = Piece::orderBy('created_at', 'asc')->take(2)->get();
 
-        $query = DB::table('pieces');
+    // Construire la requête de base
+    $query = DB::table('pieces');
 
-        $category = $request->input('category');
-        $keyword = $request->input('keyword');
+    // Récupérer les paramètres de recherche
+    $category = $request->input('category');
+    $keyword = $request->input('keyword');
 
-
-        if (!empty($category)) {
-            $query->where('categorie_pieces', $category);
-        }
-
-        if (!empty($keyword)) {
-            $query->where('nom', 'like', '%' . $keyword . '%');
-        }
-
-        $pieces = $query->paginate(12);
-
-
-        //$pieces = Piece::where('nom', 'like', '%' . $searchTerm . '%')->paginate(9);
-
-        return view('shop', compact('engins', 'marques', 'pieces', 'banner_engins', 'banner_pieces', 'top_pieces_buys'));
-
-
-
+    // Filtrer par catégorie si présente
+    if (!empty($category)) {
+        $query->where('categorie_pieces', $category);
     }
+
+    // Filtrer par mot-clé si présent
+    if (!empty($keyword)) {
+        $query->where('nom', 'like', '%' . $keyword . '%');
+    }
+
+    // Paginer les résultats et conserver les paramètres de recherche dans l'URL
+    $pieces = $query->paginate(12)->appends([
+        'category' => $category,
+        'keyword' => $keyword,
+    ]);
+
+    // Retourner la vue avec les données compactées
+    return view('shop', compact('engins', 'marques', 'pieces', 'banner_engins', 'banner_pieces', 'top_pieces_buys'));
+}
+
+
+    // public function search(Request $request)
+    // {
+    //     $engins = Engin::get();
+    //     $marques = Marque::all();
+    //     //$pieces = Piece::paginate(9);
+    //     $banner_engins = Engin::latest()->take(1)->get();
+    //     $banner_pieces = Piece::latest()->take(2)->get();
+    //     $top_pieces_buys = Piece::orderBy('created_at', 'asc')->take(2)->get();
+
+    //     $query = DB::table('pieces');
+
+    //     $category = $request->input('category');
+    //     $keyword = $request->input('keyword');
+
+
+    //     if (!empty($category)) {
+    //         $query->where('categorie_pieces', $category);
+    //     }
+
+    //     if (!empty($keyword)) {
+    //         $query->where('nom', 'like', '%' . $keyword . '%');
+    //     }
+
+    //     $pieces = $query->paginate(12);
+
+
+    //     //$pieces = Piece::where('nom', 'like', '%' . $searchTerm . '%')->paginate(9);
+
+    //     return view('shop', compact('engins', 'marques', 'pieces', 'banner_engins', 'banner_pieces', 'top_pieces_buys'));
+
+
+
+    // }
 }
