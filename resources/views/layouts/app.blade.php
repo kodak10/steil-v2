@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Steil Automobile - Vente de Pièces Auto, Location et Vente de Bus et Engins</title>
+		<title>Steil Automobile - Pièces Auto, Location et Vente de Bus</title>
 
 		<meta name="keywords" content="pièces auto, location bus, vente engins, Côte d'Ivoire, automobile, transport" />
 		<meta name="description" content="Découvrez Steil Automobile, votre expert en vente de pièces auto et en location de bus et engins en Côte d'Ivoire. Qualité et service au meilleur prix !">
