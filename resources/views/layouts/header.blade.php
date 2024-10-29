@@ -21,7 +21,7 @@
 
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="/">Accueil</a></li>
-                                        <li><a class="{{ Request::is('about') ? 'active' : '' }}" href="#">A Propos</a></li>
+                                        <li><a class="" href="/#about">SERVICES</a></li>
                                         <li><a class="{{ Request::is('pieces') ? 'active' : '' }}" href="/pieces">Pièces Auto / Engin / Bus</a></li>
                                         <li><a class="{{ Request::is('garage') ? 'active' : '' }}" href="/garage">Garage</a></li>
                                         <li><a class="{{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contacts</a></li>
@@ -30,7 +30,7 @@
                             </div>
                             <ul class="header-social-icons social-icons d-none d-lg-block">
                                 <li class="social-icons-facebook"><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-instagram"><a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                {{-- <li class="social-icons-instagram"><a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li> --}}
                             </ul>
                             <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
                                 <i class="fas fa-bars"></i>

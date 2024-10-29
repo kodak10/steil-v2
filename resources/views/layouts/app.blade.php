@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-style-switcher-options="{'showBordersStyle': true, 'showLayoutStyle': true, 'showBackgroundColor': true}">
+<html lang="fr" data-style-switcher-options="{'showBordersStyle': true, 'showLayoutStyle': true, 'showBackgroundColor': true}">
 
     <head>
 
@@ -7,15 +7,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Steil Automobile</title>
+		<title>Steil Automobile - Vente de Pièces Auto, Location et Vente de Bus et Engins</title>
 
-		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Steil Automobile - Vente de pieces auto et location et vente de bus et engin">
+		<meta name="keywords" content="pièces auto, location bus, vente engins, Côte d'Ivoire, automobile, transport" />
+		<meta name="description" content="Découvrez Steil Automobile, votre expert en vente de pièces auto et en location de bus et engins en Côte d'Ivoire. Qualité et service au meilleur prix !">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="img/logo-default-slim.jpeg" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/logo-default-slim.jpeg">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -62,7 +62,7 @@
 		<div class="body">
 			<div id="preloader">
 				<div class="preloader-content">
-					<img src="{{asset('img/preloader.png')}}" alt="Preloader Image">
+					<img src="{{asset('img/preloader.png')}}" alt="Chargement">
 					<p>Chargement...</p>
 				</div>
 			</div>

@@ -163,7 +163,7 @@
 </div>
 
 <!-- About -->
-<div class="container my-5 pt-md-4 pt-xl-0 mt-5 mb-5">
+<div class="container my-5 pt-md-4 pt-xl-0 mt-5 mb-5" id="about">
 
     <div class="row align-items-center justify-content-center pb-4 mb-5">
         <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
